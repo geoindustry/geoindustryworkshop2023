@@ -1,5 +1,5 @@
-baseurl: "https://liyanplus.github.io/geoindustry_2022.github.io/"
-title: "International Workshop on Spatial Big Data and AI for Industrial Applications@ACM SIGSPATIAL 2022"
+baseurl: "https://geoindustry.github.io/geoindustry_2023.github.io/"
+title: "International Workshop on Spatial Big Data and AI for Industrial Applications@ACM SIGSPATIAL 2023"
 canonifyurls: true
 theme: "hugo-conference"
 
@@ -7,14 +7,14 @@ GoogleAnalytics: ""
 
 params:
   # Conference info
-  Name: "GeoIndustry@ACM SIGSPATIAL 2022"
-  Description: "International Workshop on Spatial Big Data and AI for Industrial Applications@ACM SIGSPATIAL 2022"
-  Date: "November 1, 2022, Pacific Standard Time"
+  Name: "GeoIndustry@ACM SIGSPATIAL 2023"
+  Description: "International Workshop on Spatial Big Data and AI for Industrial Applications@ACM SIGSPATIAL 2023"
+  # Date: "Monday November 13, 2023"
   # Price: "Only $100" # If your event is free, just comment this line
-  Venue: "Seattle Marriott Waterfront"
-  Address: "2100 Alaskan Way"
-  City:  "Seattle"
-  State: "WA"
+  # Venue: ""
+  # Address: ""
+  City:  "Hamburg"
+  State: "Germany"
   Images: ["/img/logo.png"]
   big_logo: "/images/acmsigspatial-full.png"
 
@@ -24,8 +24,8 @@ params:
     - intro
     - organizer
     # - speakers
-    - schedule    
-    - location
+    # - schedule    
+    # - location
     - cfp
     - deadline
     #- contact
@@ -33,11 +33,11 @@ params:
   # Titles which you can translate to other languages
   Titles:
     intro: "About"
-    location: "Location"
+    # location: "Location"
     cfp: "Call For Papers"
     organizer: "Organization Committee"
     # speakers: "Invited Talk"
-    schedule: "Schedule"
+    # schedule: "Schedule"
     deadline: "Important Dates"
     # sponsors: "Sponsors"
     # partners: "Partners"
@@ -47,7 +47,7 @@ params:
   # If you don't want this, just remove the callToAction property.
   CallToAction:
     text: "Register now"
-    link: "https://sigspatial2022.sigspatial.org/registration/"
+    link: ""
 
   intro:
     text: "With the rapid revolution and increasing availability of geospatial data, not only academia but also industry aspire 
@@ -61,73 +61,70 @@ params:
         lean towards using the traditional approaches that are developed without spatial consideration (e.g., ignoring spatial and 
         temporal dependencies), and project teams have limited time and efforts to dive deep on the development of novel techniques 
         that can be high-risk but high-potential. This opens up opportunities for synergistic collaboration between industrial 
-        practitioners and academic researchers. The 1st ACM SIGSPATIAL International Workshop on Spatial Big Data and AI for Industrial 
-        Applications (GeoIndustry 2022) is to offer a forum to exchange thoughts and ideas between industry and academia and reduce the 
+        practitioners and academic researchers. The 2nd ACM SIGSPATIAL International Workshop on Spatial Big Data and AI for Industrial 
+        Applications (GeoIndustry 2023) is to offer a forum to exchange thoughts and ideas between industry and academia and reduce the 
         siloed efforts. At the same time, the collaborations, via invited and regular talks, can not only accelerate the research-to-impact 
         cycle, but also foster workforce development for future geospatial researchers. "
 
   cfp:
     text: ""
-    url: "files/CFP22_GeoIndustry_SIGSPATIAL.pdf"
+    url: "files/GeoIndustry_CFP_2023.pdf"
     keywords: [""]
 
   organizer:
-    pc_chair: ["Emre Eftelioglu (Amazon)",
-    "Heba Aly (Amazon)", 
-    "Yiqun Xie (University of Maryland)",
-    "Jia Yu (Washington State University, Apache Software Foundation)"]
-    pc_member: ["Ravi Garg (Amazon)",
-    "Xiaowei Jia (University of Pittsburgh)",
-    "Zhe Jiang (University of Florida)",
-    "Xun Tang (Meta)"]
-    webmaster: ["Yan Li (Amazon)"]
+    pc_chair: ["Heba Aly (Amazon)",
+    "Emre Eftelioglu (Amazon)", 
+    "Song Gao (University of Wisconsin-Madison)",
+    "Yan Li (Amazon)",
+    "Jinmeng Rao (Mineral Earth Sciences)",
+    "Yiqun Xie (University of Maryland)"]
 
   deadline:
-    submission: "September 16, 2022 (anywhere on earth, extended)"
-    notification: "September 28, 2022 (anywhere on earth)"
-    camera: "October 10, 2022 (anywhere on earth)"
-    workshopdate: "November 1, 2022"
-    submissionsite: "https://easychair.org/my/conference?conf=geoindustry22"
+    submission: "August 20, 2023 (anywhere on earth)"
+    notification: "September 25, 2023 (anywhere on earth)"
+    # camera: "October 10, 2022 (anywhere on earth)"
+    # workshopdate: "November 1, 2022"
+    submissionsite: "https://easychair.org/my/conference?conf=geoindustry23"
 
   schedule:
-    - time: "09:00 - 09:10"
-      title: "Opening Remarks"
-    - time: "09:10 - 10:10"
-      authors: "Dr. John Krumm (Microsoft Research)"
-      title: "Valuing Personal Location Data (Keynote Talk)" 
-      abstract: "The whereabouts of regular people from their everyday lives is valuable, both to the people 
-      themselves and to organizations that want to learn more about them. And yet the precise value of this 
-      data is difficult to pinpoint, both in the minds of the data subjects and the accounting of the data 
-      collectors. From the subject’s point of view, is differential privacy the answer? What would motivate 
-      a subject to release their data? What if they want to release just a vague idea of their location? From 
-      the data collector’s point of view, how can they put a price on location data and decide which data 
-      to buy? How do they know when they have enough? This talk will explore these questions, highlighting 
-      some of our lab’s research toward clarifying how to protect and value everyday location data."
-    - time: "10:10 - 10:30"
-      title: "BinoML: Supervised Ranking for Automatic Building Labeling"
-      authors: "Puyang Ma, Ravi Garg, Mohamed Moustafa"
-    - time: "10:30 - 10:50"
-      title: "Coffee Break"
-    - time: "10:50 - 11:10"
-      title: "Toward a crowdsourcing solution to estimate border crossing times using market-available connected vehicle data"
-      authors: "Ehsan Jalilifar, Xiao Li, Michael Martin, Xiao Huang"
-    - time: "11:10 - 11:30"
-      title: "A Study on Singapore’s Vegetation Cover and Land Use Change Using Remote Sensing"
-      authors: "Yun Si Goh, Jing Wen Leong, Seanglidet Yean, Bu-Sung Lee, Kang Min Ngo, Peter Edwards"
-    - time: "11:30 - 11:50"
-      title: "Break"
-    - time: "11:50 - 12:50"
-      authors: "Dr. Dieter Pfoser (George Mason University)"
-      title: "Geospatial research questions - simple observations and solutions (Keynote Talk)" 
-      abstract: "Why is spatial special? One answer could be that interesting geospatial research is guided by our 
-      experiences in the physical world. This talk will look at three cases from my personal research trajectory that were 
-      triggered by interesting observations and hopefully resulted in meaningful insights. The first case relates to the 
-      emergence of GPS devices and how this technology allowed us to record activities. We will discuss research for 
-      extracting knowledge from collected spatiotemporal data, e.g., map construction algorithms, as well as open problems. 
-      The second case looks at crowdsourcing and engaging internet users in (geospatial) data generation. Crowdsourcing had 
-      a profound impact on the geospatial world and we will look at geocoded image data and what it can tell us about places. 
-      The third case relates to scenarios in which a lot of data is actually not enough and how modeling and simulation can 
-      be used as a complement. The talk concludes with discussing important research challenges in data-poor scenarios, such 
-      as data privacy & crowdsourcing and indoor environments."
-    - time: "12:50 - 13:00"
-      title: "Closing Remarks"
+    # - time: "09:00 - 09:10"
+    #   title: "Opening Remarks"
+    # - time: "09:10 - 10:10"
+    #   authors: "Dr. John Krumm (Microsoft Research)"
+    #   title: "Valuing Personal Location Data (Keynote Talk)" 
+    #   abstract: "The whereabouts of regular people from their everyday lives is valuable, both to the people 
+    #   themselves and to organizations that want to learn more about them. And yet the precise value of this 
+    #   data is difficult to pinpoint, both in the minds of the data subjects and the accounting of the data 
+    #   collectors. From the subject’s point of view, is differential privacy the answer? What would motivate 
+    #   a subject to release their data? What if they want to release just a vague idea of their location? From 
+    #   the data collector’s point of view, how can they put a price on location data and decide which data 
+    #   to buy? How do they know when they have enough? This talk will explore these questions, highlighting 
+    #   some of our lab’s research toward clarifying how to protect and value everyday location data."
+    # - time: "10:10 - 10:30"
+    #   title: "BinoML: Supervised Ranking for Automatic Building Labeling"
+    #   authors: "Puyang Ma, Ravi Garg, Mohamed Moustafa"
+    # - time: "10:30 - 10:50"
+    #   title: "Coffee Break"
+    # - time: "10:50 - 11:10"
+    #   title: "Toward a crowdsourcing solution to estimate border crossing times using market-available connected vehicle data"
+    #   authors: "Ehsan Jalilifar, Xiao Li, Michael Martin, Xiao Huang"
+    # - time: "11:10 - 11:30"
+    #   title: "A Study on Singapore’s Vegetation Cover and Land Use Change Using Remote Sensing"
+    #   authors: "Yun Si Goh, Jing Wen Leong, Seanglidet Yean, Bu-Sung Lee, Kang Min Ngo, Peter Edwards"
+    # - time: "11:30 - 11:50"
+    #   title: "Break"
+    # - time: "11:50 - 12:50"
+    #   authors: "Dr. Dieter Pfoser (George Mason University)"
+    #   title: "Geospatial research questions - simple observations and solutions (Keynote Talk)" 
+    #   abstract: "Why is spatial special? One answer could be that interesting geospatial research is guided by our 
+    #   experiences in the physical world. This talk will look at three cases from my personal research trajectory that were 
+    #   triggered by interesting observations and hopefully resulted in meaningful insights. The first case relates to the 
+    #   emergence of GPS devices and how this technology allowed us to record activities. We will discuss research for 
+    #   extracting knowledge from collected spatiotemporal data, e.g., map construction algorithms, as well as open problems. 
+    #   The second case looks at crowdsourcing and engaging internet users in (geospatial) data generation. Crowdsourcing had 
+    #   a profound impact on the geospatial world and we will look at geocoded image data and what it can tell us about places. 
+    #   The third case relates to scenarios in which a lot of data is actually not enough and how modeling and simulation can 
+    #   be used as a complement. The talk concludes with discussing important research challenges in data-poor scenarios, such 
+    #   as data privacy & crowdsourcing and indoor environments."
+    # - time: "12:50 - 13:00"
+    #   title: "Closing Remarks"
