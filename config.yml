@@ -1,4 +1,4 @@
-baseurl: "https://geoindustry.github.io/geoindustry_2023.github.io/"
+baseurl: "https://geoindustry.github.io/geoindustryworkshop2023/"
 title: "International Workshop on Spatial Big Data and AI for Industrial Applications@ACM SIGSPATIAL 2023"
 canonifyurls: true
 theme: "hugo-conference"
