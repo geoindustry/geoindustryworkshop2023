@@ -83,8 +83,8 @@ params:
     submission: "August 20, 2023 (anywhere on earth)"
     notification: "September 25, 2023 (anywhere on earth)"
     # camera: "October 10, 2022 (anywhere on earth)"
-    # workshopdate: "November 1, 2022"
-    submissionsite: "https://easychair.org/my/conference?conf=geoindustry23"
+    workshopdate: "November 13, 2023"
+    submissionsite: "https://easychair.org/conferences/?conf=geoindustry2023"
 
   schedule:
     # - time: "09:00 - 09:10"
