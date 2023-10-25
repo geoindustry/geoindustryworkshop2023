@@ -1,10 +1,12 @@
 <h2 class="section-title">{{ .titles.location }}</h2>
-
+<a href="https://www.google.de/maps/place/Radisson+Blu/@53.5615586,9.9848718,17z/data=!3m2!4b1!5s0x47b18f3dc4d41849:0x198ca3878c94fad0!4m9!3m8!1s0x47b18f3cded1510b:0x135051c5092145cb!5m2!4m1!1i2!8m2!3d53.5615554!4d9.9874467!16s%2Fm%2F0b__zt2?entry=ttu">
 <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-  <span itemprop="streetAddress">{{ .address }}. </span>
+  <span itemprop="venue">{{ .venue }}</span>,
+  <span itemprop="streetAddress">{{ .address }}</span>,
   <span itemprop="addressLocality">{{ .city }}</span>,
   <span itemprop="addressRegion"> {{ .state }}</span>
 </p>
+</a>
 
 <!-- <div data-address="{{ .address }}, {{ .city }} - {{ .state }}">
   
