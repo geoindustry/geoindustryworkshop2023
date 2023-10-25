@@ -78,6 +78,10 @@ params:
     "Yan Li (Amazon)",
     "Jinmeng Rao (Mineral Earth Sciences)",
     "Yiqun Xie (University of Maryland)"]
+    pc_member: ["Jiahao Fan (University of Wisconsin-Madison)",
+    "Mingquan Chen (Google)",
+    "Hongxu Ma (Google X)",
+    "Chenxi Lin (PAII Inc)"]
 
   deadline:
     submission: "September 15, 2023 (anywhere on earth, extended)"
@@ -87,9 +91,9 @@ params:
     submissionsite: "https://easychair.org/conferences/?conf=geoindustry2023"
 
   schedule:
-    - time: "13:30 - 13:40"
+    - time: "13:50 - 14:00"
       title: "Opening Remarks"
-    - time: "13:40 - 14:00"
+    - time: "14:00 - 14:15"
       title: "Spatial experiment identification (SPEX-ID): a method to identify
       experimental conditions from spatial information in digital agricultural data and beyond"
       authors: "Taylor Aune, Huan Gu, Dagmawi Woldesenbet, Tuyen Le and Jeffery Sauer"
@@ -109,7 +113,7 @@ params:
       to identify more than 12,000 fields with potential experimental conditions. None of these fields 
       were previously known to contain experimental conditions. We highlight several examples of subfield 
       regions with high-quality experimental arrangements and discuss several avenues for future research."
-    - time: "14:00 - 14:20"
+    - time: "14:15 - 14:30"
       title: "Floorplan Generation from Noisy Point Clouds"
       authors: "Anselmo Talotta, Valentin Radu and Lorenzo Sorgi"
       abstract: "Floorplans are useful for navigating indoor spaces, for resource allocation and management 
@@ -123,7 +127,7 @@ params:
       estimation. This training gets the domain closer to our final goal, of generating floorplans from easily 
       collected point cloud scans in the real-world. Finally, we showcase the capability of our solution when 
       operating with noisy Lidar scans collected from a drone with posture estimation."
-    - time: "14:20 - 14:40"
+    - time: "14:30 - 14:45"
       title: "A new approach to assessing perceived walkability: Combining Street View Imagery 
       with Multimodal Contrastive Learning Model"
       authors: "Xinyi Liu, James Haworth and Meihui Wang"
@@ -138,7 +142,7 @@ params:
       offers a cost-effective alternative without needing extensive labelled datasets. This method can be 
       combined with objective pedestrian assessment methods to serve as reference information for various 
       industries such as real estate, transportation planning, and tourism."
-    - time: "14:40 - 15:00"
+    - time: "14:45 - 15:00"
       title: "Exploring The Use of OpenStreetMap Data (OSM) and GPS Traces for Validating 
       Driving Routes and Identifying Prohibited Maneuvers in Direction Services"
       authors: "Antonios Karatzoglou, Tijana Bekic, Mohit Khanna, Vashutosh Agrawal, 
@@ -162,7 +166,7 @@ params:
       identify 90% of all illegal maneuvers while reducing the load of manual human judgement by 86%."
     - time: "15:00 - 15:30"
       title: "Coffee Break"
-    - time: "15:30 - 15:50"
+    - time: "15:30 - 15:45"
       title: "LocFree: WiFi RTT-based Device-Free Indoor Localization System"
       authors: "Mohamed Mohsen, Hamada Rizk, Hirozumi Yamaguchi and Moustafa Youssef"
       abstract: "Gaining knowledge of a person's movement in the environment without needing a specialized 
@@ -182,7 +186,7 @@ params:
       with fine-grained accuracy. The evaluation of LocFree in two realistic environments demonstrates its 
       efficacy, achieving a median localization accuracy of 1.56 meters. This surpasses the performance 
       of state-of-the-art techniques by at least 56%."
-    - time: "15:50 - 16:10"
+    - time: "15:45 - 16:00"
       title: "Cellular Network Optimization by Deep Reinforcement Learning and AI-Enhanced Ray Tracing"
       authors: "Zhangyu Wang, Serkan Isci, Yaron Kanza, Velin Kounev and Yusef Shaqalle"
       abstract: "In this paper we study the use of deep reinforcement learning that is supported by a ray 
@@ -194,7 +198,7 @@ params:
       simulated annealing and Bayesian optimization. Our study shows that reinforcement learning is effective 
       and can cope with optimization problems that are at a greater scale than the settings the other 
       algorithms can cope with."
-    - time: "16:10 - 16:30"
+    - time: "16:00 - 16:15"
       title: "Optimization of shared bicycle location in Wuhan city based on multi-source geospatial big data"
       authors: "Shaohua Wang, Runqiao Wang, Cheng Su, Liang Zhou, Wenda Wang and Haojian Liang"
       abstract: "With urban development and a growing focus on sustainability, shared bicycles have become a 
@@ -213,42 +217,6 @@ params:
       In summary, this study deepens our understanding of how shared bicycles are used in Wuhan and the 
       significance of key factors. It creates a model for selecting docking points, offering a scientifically 
       grounded approach and valuable insights for urban transportation planning and sustainability."
-
-    #   authors: "Dr. John Krumm (Microsoft Research)"
-    #   title: "Valuing Personal Location Data (Keynote Talk)" 
-    #   abstract: "The whereabouts of regular people from their everyday lives is valuable, both to the people 
-    #   themselves and to organizations that want to learn more about them. And yet the precise value of this 
-    #   data is difficult to pinpoint, both in the minds of the data subjects and the accounting of the data 
-    #   collectors. From the subject’s point of view, is differential privacy the answer? What would motivate 
-    #   a subject to release their data? What if they want to release just a vague idea of their location? From 
-    #   the data collector’s point of view, how can they put a price on location data and decide which data 
-    #   to buy? How do they know when they have enough? This talk will explore these questions, highlighting 
-    #   some of our lab’s research toward clarifying how to protect and value everyday location data."
-    # - time: "10:10 - 10:30"
-    #   title: "BinoML: Supervised Ranking for Automatic Building Labeling"
-    #   authors: "Puyang Ma, Ravi Garg, Mohamed Moustafa"
-    # - time: "10:30 - 10:50"
-    #   title: "Coffee Break"
-    # - time: "10:50 - 11:10"
-    #   title: "Toward a crowdsourcing solution to estimate border crossing times using market-available connected vehicle data"
-    #   authors: "Ehsan Jalilifar, Xiao Li, Michael Martin, Xiao Huang"
-    # - time: "11:10 - 11:30"
-    #   title: "A Study on Singapore’s Vegetation Cover and Land Use Change Using Remote Sensing"
-    #   authors: "Yun Si Goh, Jing Wen Leong, Seanglidet Yean, Bu-Sung Lee, Kang Min Ngo, Peter Edwards"
-    # - time: "11:30 - 11:50"
-    #   title: "Break"
-    # - time: "11:50 - 12:50"
-    #   authors: "Dr. Dieter Pfoser (George Mason University)"
-    #   title: "Geospatial research questions - simple observations and solutions (Keynote Talk)" 
-    #   abstract: "Why is spatial special? One answer could be that interesting geospatial research is guided by our 
-    #   experiences in the physical world. This talk will look at three cases from my personal research trajectory that were 
-    #   triggered by interesting observations and hopefully resulted in meaningful insights. The first case relates to the 
-    #   emergence of GPS devices and how this technology allowed us to record activities. We will discuss research for 
-    #   extracting knowledge from collected spatiotemporal data, e.g., map construction algorithms, as well as open problems. 
-    #   The second case looks at crowdsourcing and engaging internet users in (geospatial) data generation. Crowdsourcing had 
-    #   a profound impact on the geospatial world and we will look at geocoded image data and what it can tell us about places. 
-    #   The third case relates to scenarios in which a lot of data is actually not enough and how modeling and simulation can 
-    #   be used as a complement. The talk concludes with discussing important research challenges in data-poor scenarios, such 
-    #   as data privacy & crowdsourcing and indoor environments."
-    # - time: "12:50 - 13:00"
-    #   title: "Closing Remarks"
+    - time: "16:15 - 16:20"
+      title: "Closing Remarks"
+    
